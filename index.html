@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>carts</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script>
+    function bodyScale() {
+      var devicewidth = document.documentElement.clientWidth;
+      var scale = devicewidth / 375;
+      //640:当前屏幕宽度,以该宽度为基数缩放宽度进行自适应
+      document.body.style.zoom = scale;
+    }
+    window.onload = window.onresize = function() {
+      bodyScale();
+    };
+  </script>
+</html>
