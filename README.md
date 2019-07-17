@@ -1,6 +1,9 @@
-# y
+# 基于 Vue实现的购物车APP
 
-> cart app  （其内carts是无用文件夹）
+# 功能：
+## 从商品页面跳转至商品详情的操作
+
+
 
 ## Build Setup
 
